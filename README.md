@@ -250,37 +250,6 @@ smartcart/
 - `GET /admin/platform-performance` - Get platform performance
 - `GET /admin/health` - System health check
 
-## 🚀 Deployment
-
-### Backend Deployment (Heroku)
-```bash
-# Install Heroku CLI
-# Login to Heroku
-heroku login
-
-# Create Heroku app
-heroku create your-app-name
-
-# Add MongoDB Atlas addon
-heroku addons:create mongolab
-
-# Set environment variables
-heroku config:set NODE_ENV=production
-heroku config:set JWT_SECRET=your-secret
-heroku config:set OPENAI_API_KEY=your-key
-
-# Deploy
-git push heroku main
-```
-
-### Frontend Deployment (Vercel)
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-```
 
 ## 🤝 Contributing
 
@@ -290,9 +259,6 @@ vercel
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -301,10 +267,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - TailwindCSS for styling
 - React community for amazing tools
 
-## 📞 Support
-
-For support, email support@smartcart.ai or create an issue in this repository.
-
----
 
 **SmartCart AI** - Making online shopping smarter with AI! 🛒✨
